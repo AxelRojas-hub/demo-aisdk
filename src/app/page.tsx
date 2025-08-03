@@ -41,7 +41,7 @@ export default function Home() {
 
   return (
     <div className="h-[100dvh] bg-black text-white">
-      <div className="h-full p-4 mx-auto w-[80%] max-w-[1280px] flex flex-col justify-center items-center">
+      <div className="h-full p-4 mx-auto w-[90%] max-w-[1280px] flex flex-col justify-center items-center">
         <div className="h-[75vh] mb-4 w-full">
           <MessagesList
             messages={allMessages}
